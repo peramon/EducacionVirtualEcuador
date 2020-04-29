@@ -1,0 +1,91 @@
+body {
+    background-color: white;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: ;
+}
+
+
+/*Cabecera*/
+
+.cabeza {
+    background-color: #191970;
+    height: 160px;
+    text-align: center;
+    padding: 20px 10px 0px 10px;
+}
+
+.cabeza img {
+    width: 10%;
+    float: left;
+}
+
+.titulo {
+    font-size: 1.4em;
+    color: gainsboro;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    padding-top: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding-top: 20px;
+}
+
+nav ul li a:hover {
+    color: violet;
+}
+
+.left {
+    width: 30%;
+    float: left;
+    background-color: teal;
+}
+
+.rigth {
+    width: 60%;
+    float: right;
+    background-color: teal;
+}
+
+aside {
+    padding: 10px;
+}
+
+.bloques {
+    clear: both;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    display: -webkit-flex;
+    /*Para safari*/
+    display: -ms-flexbox;
+    /*Para Explore, no funciona en una version*/
+}
+
+footer {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
+
+.rigth img {
+    display: block;
+    margin: auto;
+}
