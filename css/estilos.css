@@ -1,10 +1,23 @@
 body {
     background-color: #47c489;
+    width: 75%;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
     font-size: 1.2em;
     color: white;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    margin: auto;
+    display: flex;
 }
 
 
@@ -12,14 +25,14 @@ h2 {
 
 .cabeza {
     background-color: #2fa86f;
-    height: 160px;
-    text-align: center;
-    padding: 20px 10px 0px 10px;
-}
-
-.cabeza img {
-    width: 10%;
-    float: left;
+    height: 80px;
+    padding: 10px 10px 10px 10px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Estilo para efecto en el titulo */
 }
 
 .titulo {
@@ -33,11 +46,12 @@ nav {
 
 nav ul {
     list-style: none;
-    padding-top: 25px;
+    padding-top: 15px;
 }
 
 nav ul li {
     display: inline-block;
+    padding-right: 15px;
 }
 
 nav ul li a {
@@ -51,20 +65,43 @@ nav ul li a:hover {
     color: violet;
 }
 
-.left {
-    width: 50%;
-    float: left;
-    background-color: teal;
-}
-
-.rigth {
-    width: 50%;
-    float: right;
-    background-color: teal;
+.introduccion p {
+    text-align: justify;
 }
 
 aside {
-    padding: 10px;
+    padding: 20px;
+}
+
+.bloques_covid {
+    clear: both;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    text-align: justify;
+}
+
+article {
+    padding: 20px;
+}
+
+.bloques_educacion {
+    clear: both;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: justify;
+}
+
+.bloques_vd {
+    clear: both;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: justify;
 }
 
 .bloques {
@@ -85,7 +122,6 @@ footer {
     color: white;
 }
 
-.rigth img {
-    display: block;
-    margin: auto;
+.titulo_izq {
+    text-align: left;
 }
