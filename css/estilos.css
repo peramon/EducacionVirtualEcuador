@@ -1,47 +1,59 @@
 body {
-    background-color: #47c489;
+    background-color: #008080;
     width: 75%;
     float: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-h2 {
-    font-size: 1.2em;
+h2,
+h3 {
+    font-size: 1.6em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
     color: white;
     text-align: center;
 }
 
-img {
-    width: 50%;
-    height: 50%;
-    padding: 10px;
-    margin: auto;
-    display: flex;
+p {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #7FFFD4;
+    padding-top: 10px;
 }
 
 
 /*Cabecera*/
 
 .cabeza {
-    background-color: #2fa86f;
-    height: 80px;
+    background-color: #008B8B;
+    height: 120px;
     padding: 10px 10px 10px 10px;
     text-transform: uppercase;
-    text-shadow: 2px 2px 5px red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-shadow: 2px 2px 5px #66CDAA;
+    display: block;
+    margin: auto;
     /* Estilo para efecto en el titulo */
 }
 
 .titulo {
-    font-size: 1.4em;
-    color: gainsboro;
+    font-size: 2.48em;
+    color: #F0FFF0;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+.sub {
+    font-size: 1.48em;
+    padding-top: 1em;
+    color: #F0FFFF;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
 }
 
 nav {
     float: auto;
+    display: block;
 }
 
 nav ul {
@@ -51,7 +63,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    padding-right: 15px;
+    padding-right: 20px;
 }
 
 nav ul li a {
@@ -59,14 +71,28 @@ nav ul li a {
     text-decoration: none;
     font-size: 1em;
     padding-top: 20px;
+    text-transform: uppercase;
 }
 
 nav ul li a:hover {
-    color: violet;
+    color: blue;
+}
+
+.introduccion {
+    background-color: #008B8B;
 }
 
 .introduccion p {
     text-align: justify;
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.introduccion iframe {
+    display: block;
+    margin: auto;
+    padding-top: 3em;
 }
 
 aside {
@@ -74,12 +100,18 @@ aside {
 }
 
 .bloques_covid {
+    background-color: #008B8B;
     clear: both;
-    width: auto;
     display: flex;
     justify-content: space-around;
     align-items: stretch;
-    text-align: justify;
+}
+
+.bloques_covid img {
+    width: auto;
+    height: auto;
+    display: block;
+    padding-left: 2em;
 }
 
 article {
@@ -87,24 +119,55 @@ article {
 }
 
 .bloques_educacion {
+    background-color: #008B8B;
     clear: both;
     width: auto;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+}
+
+.bloques_educacion img {
+    width: auto;
+    height: auto;
+    display: block;
+    padding-left: 2em;
+}
+
+.problemas {
+    background-color: #008B8B;
+}
+
+.problemas p {
     text-align: justify;
+    width: 60%;
+    display: block;
+    margin: auto;
 }
 
 .bloques_vd {
+    background-color: #008B8B;
     clear: both;
     width: auto;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    text-align: justify;
 }
 
-.bloques {
+.bloques_vd li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #7FFFD4;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.tools {
+    background-color: #008B8B;
+}
+
+.bloques_herramientas {
     clear: both;
     width: auto;
     display: flex;
@@ -124,4 +187,61 @@ footer {
 
 .titulo_izq {
     text-align: left;
+    font-size: 1.6em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #8FBC8F;
+}
+
+a:hover {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 1.1em;
+    width: 50%;
+}
+
+ol {
+    list-style: none;
+    padding-top: 15px;
+}
+
+ol li {
+    display: block;
+    padding-right: 20px;
+    margin-top: 1em;
+}
+
+ol li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.bloques_finales {
+    clear: both;
+    width: auto;
+    padding-top: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.data {
+    padding-top: 2.5em;
+    color: white;
+    text-align: right;
+    font-size: 0.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
